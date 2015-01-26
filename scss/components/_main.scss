@@ -33,24 +33,3 @@ i{
 li{
 	@include button($primary, $secondary, $primary);
 }
-
-/*
-.primary-btn{
-	@include button($primary, $primary-dark, #fff);
-}
-
-.secondary-btn{
-	@include button($secondary, $secondary-dark, #fff);
-}
-
-.border{
-	border: 1px solid #ccc;
-// You can choose elements/selectors to target
-	p{
-		color: green;
-	}
-}
-
-ul{
-	@extend .border;
-}
