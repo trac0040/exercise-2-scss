@@ -37,4 +37,15 @@
 		color: $hover-color;
 		}
 }
+
+@mixin center-div($bg-color){
+	list-style-type: none;
+	padding:0;
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+	max-width: 300px;
+	background-color: $bg-color;
+}
+
 	
