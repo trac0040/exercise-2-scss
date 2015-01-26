@@ -31,5 +31,5 @@ i{
 }
 
 li{
-	@include button($primary, $secondary, $primary);
+	@include button($primary, $secondary, $primary, $primary);
 }

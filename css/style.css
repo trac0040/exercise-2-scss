@@ -69,5 +69,5 @@ li:hover {
   background: #F04C68;
   background: linear-gradient(135deg, #ffffff 0%, #f3f3f3 50%, #ededed 51%, #ffffff 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=1 );
-  color: #fff;
+  color: #F04C68;
 }

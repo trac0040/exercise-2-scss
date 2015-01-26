@@ -17,7 +17,7 @@
 }
 */
 
-@mixin button($bg-color, $text-color, $border-color){
+@mixin button($bg-color, $text-color, $border-color, $hover-color){
 	display:block;
 	padding:0.75em;
 	margin:0.75em;
@@ -34,7 +34,7 @@
 		background: $bg-color;
 		background: linear-gradient(135deg,  #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%);
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=1 );
-		color: $text-color;
+		color: $hover-color;
 		}
 }
 	
